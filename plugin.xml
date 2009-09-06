@@ -1,0 +1,17 @@
+<plugin name='session-temp-files' version='1.0' grailsVersion='1.1 &gt; *'>
+  <author>Rob Fletcher</author>
+  <authorEmail>rob@energizedwork.com</authorEmail>
+  <title>Session Temp Files</title>
+  <description>\
+Provides a mechanism for creating and accessing temporary files bound to the HTTP
+session that are destroyed when the session is destroyed.
+</description>
+  <documentation>http://grails.org/plugin/session-temp-files</documentation>
+  <resources>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+  </resources>
+  <dependencies>
+    <plugin name='controllers' version='1.1 &gt; *' />
+  </dependencies>
+</plugin>
