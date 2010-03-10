@@ -1,3 +1,5 @@
-test/reports
+target/
+web-app/
+plugin.xml
 *.log
 *.iws
